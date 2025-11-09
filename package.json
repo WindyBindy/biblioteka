@@ -5,7 +5,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 3",
 		"dev": "npx parcel src/index.html",
-		"build": "parcel build src/index.html --public-url /parcelsecond/",
+		"build": "parcel build src/index.html --public-url /biblioteka/",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist"
 	},
