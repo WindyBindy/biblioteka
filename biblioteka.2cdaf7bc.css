@@ -1,5 +1,11 @@
-h1 {
-  color: #ff69b4;
-  font-family: cursive;
+.box {
+  background-color: #bd6f41;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  font-size: 150px;
+  display: flex;
 }
 /*# sourceMappingURL=biblioteka.2cdaf7bc.css.map */
