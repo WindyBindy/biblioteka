@@ -1,0 +1,36 @@
+{
+	"name": "biblioteka",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 3",
+		"dev": "npx parcel src/index.html",
+		"build": "parcel build src/index.html --public-url /parcelsecond/",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WindyBindy/biblioteka.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/WindyBindy/biblioteka/issues"
+	},
+	"homepage": "https://github.com/WindyBindy/biblioteka#readme",
+	"devDependencies": {
+		"@pnotify/core": "^5.2.0",
+		"@pnotify/desktop": "^5.2.0",
+		"@pnotify/mobile": "^5.2.0",
+		"parcel": "^2.16.0",
+		"pnotify": "^5.2.0"
+	},
+	"dependencies": {
+		"basiclightbox": "^5.0.4",
+		"chart.js": "^4.5.1",
+		"gh-pages": "^6.3.0"
+	}
+}
